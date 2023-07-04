@@ -13,8 +13,8 @@ export default {
       '2xl': "5rem"
     },
     backgroundImage: {
-      'about': "url('./src/assets/bgabout.svg')",
-      'about-2': "url('./src/assets/bg-about.svg')"
+      'about': "url('/src/assets/bgabout.svg')",
+      'about-2': "url('/src/assets/bg-about.svg')"
     },
     screens: {
       sm: '400px',

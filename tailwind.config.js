@@ -6,9 +6,15 @@ export default {
   ],
   theme: {
     fontSize: {
+      'sm': '1rem',
       'lg': '2rem',
+      'lg2': '2.5rem',
       'xl': "3rem",
       '2xl': "5rem"
+    },
+    backgroundImage: {
+      'about': "url('./src/assets/bgabout.svg')",
+      'about-2': "url('./src/assets/bg-about.svg')"
     },
     screens: {
       sm: '400px',

@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Element } from 'react-scroll'
 import Home from './pages/Home'
 import Navbar from './components/Navbar'
 import './index.css'
@@ -14,12 +15,10 @@ function App() {
       <BrowserRouter>
       <Navbar />
       <Layout>
-        <Routes>
-          <Route path='/' element={<Home />}></Route>
-          <Route path='about' element={<About />}></Route>
-          <Route path='work' element={<Work />}></Route>
-          <Route path='contact' element={<Contact />}></Route>
-        </Routes>
+        <Home/>
+        <About />
+        <Work />
+        <Contact />
       </Layout>
       </BrowserRouter>
     </>

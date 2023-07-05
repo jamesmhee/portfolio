@@ -5,10 +5,10 @@ import Typewriter from "typewriter-effect";
 const Header = () => {
   return (
       <div id="home" className='bg-[#212121] flex md:flex-row flex-col'>
-        <div className="grow-0 md:w-6/12 w-2/4 md:shrink mx-auto md:mx-0 md:p-20 text-center">
-          <img className="rounded md:rounded-[20px] rounded-[100%]" src={Profile} alt="profile"></img>
+        <div className="grow-0 md:p-20 md:shrink md:mx-0 mx-auto text-center">
+          <img className="rounded md:rounded-[20px] rounded-[100%] mx-auto w-2/4 md:w-auto" src={Profile} alt="profile"></img>
         </div>
-        <div className='grow-0 md:w-12/12 md:mx-auto md:shrink my-0 md:my-auto font-bold text-center md:text-left text-rose-500 text-lg md:text-xl lg:text-xl'>            
+        <div className='grow-0 md:w-[600px] md:shrink my-0 md:my-auto md:mx-auto font-bold text-center md:text-left text-rose-500 text-lg md:text-xl lg:text-xl'>            
           <Typewriter
               onInit={(typewriter) => {
                   typewriter
@@ -17,10 +17,9 @@ const Header = () => {
                       .start();
               }}
             />    
-            <p className='text-white md:text-lg2 font-medium'>
+            <p className='text-white md:text-xl font-medium h-24 md:h-auto'>
               Frontend Developer.
             </p>
-            <hr></hr>
         </div>
       </div>
       

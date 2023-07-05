@@ -5,7 +5,7 @@ import Navbar from './components/Navbar'
 import './index.css'
 import Layout from './components/Layout'
 import About from './pages/About'
-import Work from './pages/Work'
+import Project from './pages/Project'
 import Contact from './pages/Contact'
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       <Layout>
         <Home/>
         <About />
-        <Work />
+        <Project />
         <Contact />
       </Layout>
       </BrowserRouter>

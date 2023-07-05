@@ -41,8 +41,8 @@ const Navbar = () => {
           <Link to="about" duration={400} smooth={true}>
             <li className='cursor-pointer text-rose-600 hover:text-white transition-all ease-in-out'>ABOUT</li>          
           </Link>
-          <Link to="work" duration={400} smooth={true}>
-            <li className='cursor-pointer text-rose-600 hover:text-white transition-all ease-in-out'>WORK</li>          
+          <Link to="project" duration={400} smooth={true}>
+            <li className='cursor-pointer text-rose-600 hover:text-white transition-all ease-in-out'>PROJECT</li>          
           </Link>
           <Link to="contact" duration={400} smooth={true}>
             <li className='cursor-pointer text-rose-600 hover:text-white transition-all ease-in-out'>CONTACT</li>          

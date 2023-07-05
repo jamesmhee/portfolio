@@ -14,7 +14,8 @@ export default {
     },
     backgroundImage: {
       'about': "url('/src/assets/bgabout.svg')",
-      'about-2': "url('/src/assets/bg-about.svg')"
+      'about-2': "url('/src/assets/bg-about.svg')",
+      'footer': "url('/src/assets/bg-footer.svg')"
     },
     screens: {
       sm: '400px',
@@ -23,9 +24,9 @@ export default {
       xl: '1900px'
     },
     extend: {},
-    boxShadow: {
-      zero: '0px 0px 13px #212121'
-    }
+    // boxShadow: {
+    //   zero: '0px 0px 13px #212121'
+    // }
   },
   plugins: [],
 }

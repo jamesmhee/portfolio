@@ -53,14 +53,14 @@ const Contact = () => {
       <footer id="contact" className='h-fit flex items-end justify-center bg-footer bg-top md:bg-bottom bg-cover'>        
         <div className='flex flex-col gap-10 my-20 items-center text-slate-900 '>
           <div className='flex'>
-            <div className='w-90 sm:w-[500px] lg:w-[1000px] md:w-[700px] text-center md:max-w-[1000px] p-5 md:p-10 h-auto bg-white shadow-lg rounded-[50px]'>
-            <h1 className='text-[2rem] text-rose-600 underline decoration-double underline-offset-8 uppercase decoration-slate-800 inline-flex first-child:text-black text-shadow-lg p-5'>Contact me</h1>
+            <div className='w-90 sm:w-[500px] lg:w-[1000px] md:w-[700px] text-center md:max-w-[1000px] p-5 md:p-10 h-auto bg-white drop-shadow-lg rounded-[50px]'>
+            <h1 className='text-[2rem] text-rose-600 uppercase text-center md:text-right font-semibold text-shadow-lg p-5'>Contact me</h1>
             <form id='form' name="Form" className='flex flex-col p-5 space-y-6' ref={form} onSubmit={sendEmail}>
-              <input className='bg-white focus:transition-all rounded text-rose-600 p-2 border-2 rounded-[30px] shadow-md caret-rose-600' required placeholder='Your Name *' type="text" name="sender-name" />
-              <input className='bg-white focus:transition-all rounded text-rose-600 p-2 border-2 rounded-[30px] shadow-md caret-rose-600' required placeholder='Your Email *' type="email" name="sender-email" />
-              <input className='bg-white focus:transition-all rounded text-rose-600 p-2 border-2 rounded-[30px] shadow-md caret-rose-600' required placeholder='Your Subject *' type="text" name="sender-subject" />
-              <textarea className='resize-none bg-white focus:transition-all rounded text-rose-600 p-2 border-2 rounded-[30px] shadow-md caret-rose-600 ' required placeholder='What do you want to tell me *' rows={10} name="sender-message" />
-              <button id='button' onClick={handleSubmit} className='rounded-[20px] h-20 w-60 mx-auto shadow-md mt-10 text-white bg-rose-600 text-[1.8rem] hover:text-slate-100 hover:bg-black transition-all duration-300' type="submit">
+              <input className='bg-white focus:transition-all rounded text-rose-600 p-2 border-2 rounded-[30px] drop-shadow-md caret-rose-600' required placeholder='Your Name *' type="text" name="sender-name" />
+              <input className='bg-white focus:transition-all rounded text-rose-600 p-2 border-2 rounded-[30px] drop-shadow-md caret-rose-600' required placeholder='Your Email *' type="email" name="sender-email" />
+              <input className='bg-white focus:transition-all rounded text-rose-600 p-2 border-2 rounded-[30px] drop-shadow-md caret-rose-600' required placeholder='Your Subject *' type="text" name="sender-subject" />
+              <textarea className='resize-none bg-white focus:transition-all rounded text-rose-600 p-2 border-2 rounded-[30px] drop-shadow-md caret-rose-600 ' required placeholder='What do you want to tell me *' rows={10} name="sender-message" />
+              <button id='button' onClick={handleSubmit} className='rounded-[20px] h-20 w-60 mx-auto drop-shadow-md mt-10 text-white bg-rose-600 text-[1.8rem] hover:text-slate-100 hover:bg-black transition-all duration-300' type="submit">
                 {(sending) ? 
                 (<p className='text-current transition-all duration-500 text-center underline inline-flex text-[1.6rem] '>SENDING&nbsp;<AiOutlineCheckCircle size={40}/> </p>)
                 : (<p>SEND</p>)

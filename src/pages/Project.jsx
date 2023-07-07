@@ -7,7 +7,7 @@ const Project = () => {
       <div  className='font-semibold text-lg text-rose-600 text-center uppercase underline decoration-wavy decoration-zinc-900 underline-offset-8 w-auto md:w-4/12'>
         my project
       </div>
-      <div  id="project" className='rounded-xl bg-zinc-900 w-full flex items-center justify-center h-96'>
+      <div  id="project" className='rounded-xl blur-sm bg-zinc-900 w-full flex items-center justify-center h-96'>
         <Slider />
       </div>
     </div>

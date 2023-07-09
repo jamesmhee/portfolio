@@ -28,22 +28,25 @@ const Navbar = () => {
 
   return (
   <>
-    <nav id="navbar" className={`z-50 transition-all duration-700 ease-in-out m-3 p-5 ${scrollDown ? 'md:p-8 md:shadow-zero md:bg-zinc-900' : 'md:p-12 md:border-hidden md:bg-[#212121] '} md:m-0 bg-zinc-900 border-none border-2 sm:border-4 md:border-t-0 md:border-b-4 md:border-x-0 md:border-b-2 p-4 rounded-full md:rounded-none bg-transparent justify-center md:justify-around flex fixed inset-x-0 bottom-2 md:sticky md:top-0`}>
+    <nav id="navbar" className={`z-20 transition-all inset-x-0 duration-700 ease-in-out m-5 p-5 ${scrollDown ? 'md:p-8 drop-shadow-md md:bg-zinc-900' : 'md:p-12 md:border-hidden md:bg-[#212121] '} md:m-0 bg-zinc-900 rounded-full md:rounded-none justify-center fixed md:justify-around flex bottom-3 md:sticky md:top-0`}>
         <Link to="" duration={400} smooth={true} onClick={scrollToTop}>
           <div className={`${scrollDown? 'md:text-lg' : 'md:text-xl'} transition-all duration-700 ease-in-out hidden md:block font-semibold text-rose-600 hover:text-white transition-all ease-in-out duration-300`}>
-            <p className='cursor-pointer transition-all duration-300 hover:scale-125'>jemmyblair</p>
+            <p className='cursor-pointer transition duration-300 hover:scale-125'>jemmyblair</p>
           </div>        
         </Link>
-        <ul className={`${scrollDown? 'md:text-md' : 'md:text-md'} transition-all duration-500 ease-in-out flex gap-10 md:gap-24 font-semibold items-center text-sm sm:text-md`}>
+        <ul className={`${scrollDown? 'md:text-[1.1rem]' : 'md:text-[1.1rem]'} transition-all duration-500 ease-in-out flex gap-10 md:gap-24 font-semibold items-center text-[0.8rem] sm:text-[0.83rem]`}>
           <Link to="" duration={400} smooth={true} onClick={scrollToTop}>
-            <li className='cursor-pointer text-rose-600 hover:text-white md:hidden transition-all ease-in-out'><ImHome size={30}/></li>                      
+            <li className='cursor-pointer md:hidden text-rose-600 hover:text-white transition-all ease-in-out'><ImHome size={30}/></li>                      
           </Link >
           <Link to="about" duration={400} smooth={true}>
             <li className='cursor-pointer text-white hover:text-rose-600 transition-all ease-in-out hover:underline hover:decoration-white hover:decoration-4 hover:underline-offset-8'>ABOUT</li>          
           </Link>
           <Link to="project" duration={400} smooth={true}>
-            <li className='cursor-pointer text-white hover:text-rose-600 transition-all ease-in-out hover:underline hover:decoration-white hover:decoration-4 hover:underline-offset-8'>PROJECT</li>          
+            <li className='cursor-pointer text-white hover:text-rose-600 transition-all ease-in-out hover:underline hover:decoration-white hover:decoration-4 hover:underline-offset-8'>PROJECT & SKILLS</li>          
           </Link>
+          {/* <Link to="skills" duration={400} smooth={true}>
+            <li className='cursor-pointer text-white hover:text-rose-600 transition-all ease-in-out hover:underline hover:decoration-white hover:decoration-4 hover:underline-offset-8'>SKILLS</li>          
+          </Link> */}
           <Link to="contact" duration={400} smooth={true}>
             <li className='cursor-pointer text-white hover:text-rose-600 transition-all ease-in-out hover:underline hover:decoration-white hover:decoration-4 hover:underline-offset-8'>CONTACT</li>          
           </Link>

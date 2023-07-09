@@ -7,7 +7,7 @@ const Header = () => {
   return (
       <div id="home" className='bg-[#212121] flex md:flex-row flex-col h-screen md:h-fit'>
         <div className="grow-0 p-5 md:p-20 mt-20 md:mt-0 md:shrink md:mx-0 mx-auto text-center">
-          <img className="shadow-lg shadow-rose-800/50 rounded md:rounded-[20px] rounded-[100%] mx-auto w-2/4 md:w-auto" src={Profile} alt="profile"></img>
+          <img className="rounded md:rounded-[20px] rounded-[100%] mx-auto w-2/4 md:w-auto" src={Profile} alt="profile"></img>
         </div>
         <div className='grow-0 md:w-[600px] md:shrink my-0 md:my-auto md:mx-auto font-bold text-center md:text-left text-rose-500 text-lg md:text-xl lg:text-xl'>            
           <Typewriter

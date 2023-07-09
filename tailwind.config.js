@@ -15,7 +15,9 @@ export default {
     backgroundImage: {
       'about': "url('/src/assets/bgabout.svg')",
       'about-2': "url('/src/assets/bg-about.svg')",
-      'footer': "url('/src/assets/bg-footer.svg')"
+      'footer': "url('/src/assets/bg-footer.svg')",
+      'skills': "url('/src/assets/layered-steps-haikei.svg')",
+      'skills2': "url('/src/assets/bgskills-2.svg')"
     },
     screens: {
       sm: '400px',

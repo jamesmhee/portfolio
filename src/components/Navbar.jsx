@@ -42,7 +42,7 @@ const Navbar = () => {
             <li className='cursor-pointer text-white hover:text-rose-600 transition-all ease-in-out hover:underline hover:decoration-white hover:decoration-4 hover:underline-offset-8'>ABOUT</li>          
           </Link>
           <Link to="project" duration={400} smooth={true}>
-            <li className='cursor-pointer text-white hover:text-rose-600 transition-all ease-in-out hover:underline hover:decoration-white hover:decoration-4 hover:underline-offset-8'>PROJECT & SKILLS</li>          
+            <li className='text-center cursor-pointer text-white hover:text-rose-600 transition-all ease-in-out hover:underline hover:decoration-white hover:decoration-4 hover:underline-offset-8'>PROJECT & SKILLS</li>          
           </Link>
           {/* <Link to="skills" duration={400} smooth={true}>
             <li className='cursor-pointer text-white hover:text-rose-600 transition-all ease-in-out hover:underline hover:decoration-white hover:decoration-4 hover:underline-offset-8'>SKILLS</li>          

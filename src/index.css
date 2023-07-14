@@ -10,6 +10,13 @@
       scroll-behavior: smooth;
   }
   ::-webkit-scrollbar {
-      width: 0px;
+      width: 8px;      
+      background: rgb(255, 50, 50);;
     }
+  ::-webkit-scrollbar-track{
+    background: rgb(255, 255, 255);
+  }
+  ::-webkit-scrollbar-thumb{
+    background: rgb(255, 50, 50);
+  }
 }

@@ -22,7 +22,7 @@ const Header = () => {
               Frontend Developer.
             </p>
           <div className='text-[1.2rem] my-5'>
-            <Link to="https://drive.google.com/file/d/1tFLiQzYuMEsomgzqgjGw7t-6TY8AWnwg/view?usp=sharing" target="_blank">
+            <Link to="https://drive.google.com/file/d/1UAjd4if1qhunDgs68loO7gB-dP6AjBc4/view?usp=sharing" target="_blank">
               <button className='border-4 bg-transparent hover:bg-white duration-500 shadow-xl bg-about bg-center bg-contain bg-no-repeat rounded-[25px] p-3 text-white font-normal hover:text-rose-500'>
                   DOWNLOAD RESUME
               </button>
